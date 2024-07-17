@@ -2,12 +2,10 @@
 Install Dependencies and Build
 Run the following commands in your terminal:
 
-bash-------
-Copy code
+#bash
 npm init -y
 npm install @wordpress/scripts --save-dev
 npx wp-scripts build
-----------
 
 This will compile your JavaScript into a dist directory.
 
