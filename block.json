@@ -1,14 +1,14 @@
 {
     "apiVersion": 2,
-    "name": "simple-form-block/form",
-    "title": "Simple Form",
+    "name": "toshiba-marketing-form-block/form",
+    "title": "Toshiba Marketing Form",
     "category": "widgets",
     "icon": "forms",
     "description": "A simple Toshiba Marketing block for the Gutenberg editor.",
     "supports": {
         "html": false
     },
-    "editorScript": "toshiba-marketing-block-editor-script",
-    "editorStyle": "toshiba-marketing-block-editor-style",
+    "editorScript": "toshiba-marketing-form-block-editor-script",
+    "editorStyle": "toshiba-marketing-form-block-editor-style",
     "style": "toshiba-marketing-form-block-style"
 }
