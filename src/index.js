@@ -1,7 +1,7 @@
 import { registerBlockType } from '@wordpress/blocks';
 import { useBlockProps } from '@wordpress/block-editor';
 
-registerBlockType('toshiba-marketing-block/form', {
+registerBlockType('toshiba-marketing-form-block/form', {
     edit() {
         const blockProps = useBlockProps();
         return (

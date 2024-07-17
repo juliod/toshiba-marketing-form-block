@@ -1,6 +1,6 @@
 {
-  "name": "deypro/toshiba-amketing-form-block",
-  "description": "This project is for wordpress bloc for Toshiba MArketing",
+  "name": "deypro/toshiba-marketing-form-block",
+  "description": "This project is form wordpress bloc for Toshiba MArketing",
   "minimum-stability": "stable",
   "license": "MIT 2.0",
   "authors": [{
