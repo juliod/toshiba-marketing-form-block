@@ -1,9 +1,11 @@
 <?php
 /**
- * Plugin Name: Simple Form Block
- * Description: A simple form block for the Gutenberg editor.
+ * Plugin Name: Toshiba Marketing Form Block
+ * Plugin URI:  https://github.com/juliod/toshiba-marketing-form-block 
+ * Description: A Toshiba Marketing form block for the Gutenberg editor.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: deypro
+ * Author URI:  https://www.deypro.com/
  */
 
 function toshiba_marketing_form_block_register_block() {
