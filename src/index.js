@@ -1,45 +1,25 @@
 import { registerBlockType } from '@wordpress/blocks';
-import { useBlockProps } from '@wordpress/block-editor';
 
-registerBlockType('toshiba-marketing-form-block/form', {
-    edit() {
-        const blockProps = useBlockProps();
-        return (
-            <div {...blockProps}>
-                <form>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" />
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" />
-                    </div>
-                    <div>
-                        <button type="submit">Submit</button>
-                    </div>
-                </form>
-            </div>
-        );
-    },
-    save() {
-        const blockProps = useBlockProps.save();
-        return (
-            <div {...blockProps}>
-                <form>
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" />
-                    </div>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" />
-                    </div>
-                    <div>
-                        <button type="submit">Submit</button>
-                    </div>
-                </form>
-            </div>
-        );
-    },
-});
+/**
+ * Internal dependencies
+ */
+import json from './block.json';
+import Edit from './edit';
+import save from './save';
+
+// Export this so we can use it in the edit and save files
+export const blockStyle = {
+	backgroundColor: '#900',
+	color: '#fff',
+	padding: '20px',
+};
+
+// Destructure the json file to get the name of the block
+// For more information on how this works, see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+const { name } = json;
+
+// Register the block
+registerBlockType( name, {
+	edit: Edit,
+	save, // Object shorthand property - same as writing: save: save,
+} );
