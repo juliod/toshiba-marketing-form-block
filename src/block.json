@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/toshiba-marketing-form-block",
-	"version": "0.1.0",
-	"title": "Toshiba Marketing Form Block",
+	"name": "toshibamarketing/toshiba-marketing-form-block",
+	"version": "1.0.0",
+	"title": "Toshiba Marketing Form",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "list-view",
+	"description": "This block shows a contact form to Toshiba Marketing",
 	"example": {},
 	"supports": {
 		"html": false
@@ -15,5 +15,6 @@
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"	
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
 }

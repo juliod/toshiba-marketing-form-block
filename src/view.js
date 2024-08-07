@@ -22,6 +22,6 @@
 
 /* eslint-disable no-console */
 console.log(
-	'Hello World! (from create-block-toshiba-marketing-form-block block)'
+	'Hello World! (from toshibamarketing-toshiba-marketing-form-block block)'
 );
 /* eslint-enable no-console */
