@@ -1,13 +1,59 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/edit.js":
 /*!*********************!*\
   !*** ./src/edit.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\src\\edit.js: Expected corresponding JSX closing tag for <input>. (43:28)\n\n\u001b[0m \u001b[90m 41 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-xs-12\"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 42 |\u001b[39m                                 \u001b[33m<\u001b[39m\u001b[33minput\u001b[39m type\u001b[33m=\u001b[39m\u001b[32m\"text\"\u001b[39m name\u001b[33m=\u001b[39m\u001b[32m\"nombre\"\u001b[39m id\u001b[33m=\u001b[39m\u001b[32m\"field_nombre\"\u001b[39m required\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m placeholder\u001b[33m=\u001b[39m\u001b[32m\"Tu nombre\"\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m                         \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 45 |\u001b[39m                         \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"form-group row \"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 46 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-xs-12\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at constructor (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:349:19)\n    at JSXParserMixin.raise (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:3247:19)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6765:16)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElement (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6787:17)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6797:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10562:23)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11911:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:17)\n    at JSXParserMixin.parseExprListItem (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11671:18)\n    at JSXParserMixin.parseCallExpressionArguments (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10748:22)\n    at JSXParserMixin.parseCoverCallAndAsyncArrowHead (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10665:29)\n    at JSXParserMixin.parseSubscript (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10602:19)\n    at JSXParserMixin.parseSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10575:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10566:17)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at JSXParserMixin.parseExpressionBase (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10280:23)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11911:12)\n    at JSXParserMixin.parseExpression (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:17)\n    at JSXParserMixin.jsxParseExpressionContainer (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6670:31)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6749:36)\n    at JSXParserMixin.jsxParseElement (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6787:17)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6797:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10562:23)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11911:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:17)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Edit)
+/* harmony export */ });
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
+/* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./editor.scss */ "./src/editor.scss");
+
+/**
+ * Retrieves the translation of text.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/
+ */
+
+
+/**
+ * React hook that is used to mark the block wrapper element.
+ * It provides all the necessary props like the class name.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
+ */
+
+
+/**
+ * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
+ * Those files can contain any CSS code that gets applied to the editor.
+ *
+ * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
+ */
+
+
+/**
+ * The edit function describes the structure of your block in the context of the
+ * editor. This represents what the editor will render when the block is used.
+ *
+ * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/#edit
+ *
+ * @return {Element} Element to render.
+ */
+function Edit() {
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)(), (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Toshiba Marketing Form – hello from the editor!', 'toshiba-marketing-form-block'));
+}
 
 /***/ }),
 
@@ -17,16 +63,12 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/style.scss");
 /* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./edit */ "./src/edit.js");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_edit__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./save */ "./src/save.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_save__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./block.json */ "./src/block.json");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./block.json */ "./src/block.json");
 /**
  * Registers a new block provided a unique name and an object defining its behavior.
  *
@@ -49,32 +91,29 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 /**
  * Every block starts by registering a new block type definition.
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_4__.name, {
+(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_3__.name, {
   /**
    * @see ./edit.js
    */
-  edit: (_edit__WEBPACK_IMPORTED_MODULE_2___default()),
-  /**
-   * @see ./save.js
-   */
-  save: (_save__WEBPACK_IMPORTED_MODULE_3___default())
+  edit: _edit__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 
 /***/ }),
 
-/***/ "./src/save.js":
-/*!*********************!*\
-  !*** ./src/save.js ***!
-  \*********************/
-/***/ (() => {
+/***/ "./src/editor.scss":
+/*!*************************!*\
+  !*** ./src/editor.scss ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\src\\save.js: Expected corresponding JSX closing tag for <input>. (29:28)\n\n\u001b[0m \u001b[90m 27 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-xs-12\"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 28 |\u001b[39m                                 \u001b[33m<\u001b[39m\u001b[33minput\u001b[39m type\u001b[33m=\u001b[39m\u001b[32m\"text\"\u001b[39m name\u001b[33m=\u001b[39m\u001b[32m\"nombre\"\u001b[39m id\u001b[33m=\u001b[39m\u001b[32m\"field_nombre\"\u001b[39m required\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m placeholder\u001b[33m=\u001b[39m\u001b[32m\"Tu nombre\"\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m                         \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 31 |\u001b[39m                         \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"form-group row \"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 32 |\u001b[39m                             \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m \u001b[36mclass\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-xs-12\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at constructor (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:349:19)\n    at JSXParserMixin.raise (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:3247:19)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6765:16)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6736:32)\n    at JSXParserMixin.jsxParseElement (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6787:17)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6797:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10562:23)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at JSXParserMixin.parseExpressionBase (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10280:23)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11911:12)\n    at JSXParserMixin.parseExpression (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:17)\n    at JSXParserMixin.jsxParseExpressionContainer (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6670:31)\n    at JSXParserMixin.jsxParseElementAt (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6749:36)\n    at JSXParserMixin.jsxParseElement (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6787:17)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6797:19)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10562:23)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11911:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10296:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11173:28)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10829:23)\n    at JSXParserMixin.parseExprAtom (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:6802:20)\n    at JSXParserMixin.parseExprSubscripts (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10562:23)\n    at JSXParserMixin.parseUpdate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10547:21)\n    at JSXParserMixin.parseMaybeUnary (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10527:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10381:61)\n    at JSXParserMixin.parseExprOps (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10386:23)\n    at JSXParserMixin.parseMaybeConditional (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10363:23)\n    at JSXParserMixin.parseMaybeAssign (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10326:21)\n    at JSXParserMixin.parseExpressionBase (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10280:23)\n    at D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:39\n    at JSXParserMixin.allowInAnd (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:11906:16)\n    at JSXParserMixin.parseExpression (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:10276:17)\n    at JSXParserMixin.parseReturnStatement (D:\\jcdd\\02-Wresources\\development\\toshiba-marketing-form-block\\node_modules\\@babel\\parser\\lib\\index.js:12596:28)");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -84,10 +123,19 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
+
+/***/ }),
+
+/***/ "@wordpress/block-editor":
+/*!*************************************!*\
+  !*** external ["wp","blockEditor"] ***!
+  \*************************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["blockEditor"];
 
 /***/ }),
 
@@ -97,8 +145,27 @@ __webpack_require__.r(__webpack_exports__);
   \********************************/
 /***/ ((module) => {
 
-"use strict";
 module.exports = window["wp"]["blocks"];
+
+/***/ }),
+
+/***/ "@wordpress/element":
+/*!*********************************!*\
+  !*** external ["wp","element"] ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["element"];
+
+/***/ }),
+
+/***/ "@wordpress/i18n":
+/*!******************************!*\
+  !*** external ["wp","i18n"] ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
@@ -108,8 +175,7 @@ module.exports = window["wp"]["blocks"];
   \************************/
 /***/ ((module) => {
 
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/toshiba-marketing-form-block","version":"0.1.0","title":"Toshiba Marketing Form Block","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false},"textdomain":"toshiba-marketing-form-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"toshibamarketing/toshiba-marketing-form-block","version":"1.0.0","title":"Toshiba Marketing Form","category":"widgets","icon":"list-view","description":"This block shows a contact form to Toshiba Marketing","example":{},"supports":{"html":false},"textdomain":"toshiba-marketing-form-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ })
 
