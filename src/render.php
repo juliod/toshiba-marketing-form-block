@@ -7,7 +7,7 @@
 	<?php esc_html_e( 'Toshiba Marketing Form – hello from a dynamic block!', 'toshiba-marketing-form-block' ); ?>
 </p>
 
-<form id="wp-toshiba-marketinblock-form"  method="post" class="toshibamarketing-forms" action= enctype="multipart/form-data">
+<form id="wp-toshiba-marketinblock-form"  method="post" class="toshibamarketing-forms" action="https://elclimadetuvida.es/api/v1" enctype="multipart/form-data">
     <h3>Quiero información de este Toshiba</h3>
     <fieldset>
         <div class="clearfix">
