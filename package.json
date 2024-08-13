@@ -11,11 +11,14 @@
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
+		"lint:php": "wp-env run --env-cwd='wp-content/plugins/gutenberg' cli composer run-script lint",
 		"packages-update": "wp-scripts packages-update",
+		"postpackages-update": "npm run build",
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start --webpack-copy-php"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27.9.0"
-	}
+	},
+	"files": [ "../*" ]
 }
