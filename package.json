@@ -18,7 +18,9 @@
 		"start": "wp-scripts start --webpack-copy-php"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^27.9.0"
+		"@wordpress/scripts": "^26.19.0"
 	},
-	"files": [ "../*" ]
+	"files": [
+		"../*"
+	]
 }

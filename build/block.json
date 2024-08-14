@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "toshibamarketing/toshiba-marketing-form-block",
+  "version": "1.0.0",
+  "title": "Toshiba Marketing Form",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "This block shows a contact form to Toshiba Marketing",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "toshiba-marketing-form-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

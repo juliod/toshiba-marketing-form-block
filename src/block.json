@@ -4,7 +4,7 @@
 	"name": "toshibamarketing/toshiba-marketing-form-block",
 	"version": "1.0.0",
 	"title": "Toshiba Marketing Form",
-	"category": "widgets",
+	"category": "",
 	"icon": "list-view",
 	"description": "This block shows a contact form to Toshiba Marketing",
 	"example": {},

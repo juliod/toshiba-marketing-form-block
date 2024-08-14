@@ -1,0 +1,11 @@
+{
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_DISPLAY": true,
+		"WP_DISABLE_FATAL_ERROR_HANDLER": true
+	  },
+	"plugins": [ "." ],
+	"mappings": {
+        "wp-content/plugins/toshiba-marketing-form-block": "../toshiba-marketing-form-block"
+    }
+}
